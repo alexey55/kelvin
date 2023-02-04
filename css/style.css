@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 .logo {
     font-weight: 700;
@@ -52,4 +53,121 @@ body {
 }
 .nav-link.active {
     color: #606060;
+}
+/* HEADER CONTENT ------------------------- */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+.header-heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.header-content p {
+    font-size: 14px;
+    line-height: 2;
+}
+/* ---------------------- SERVICE */
+.services {
+    padding: 90px 0;
+}
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+.service-card {
+}
+.service-card-img {
+    margin-bottom: 30px;
+}
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.service-card p {
+    line-height: 2;
+}
+/* ---------------------- PORTFOLIO --------------------- */
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+}
+.project {
+    text-align: center;
+}
+.project + .project {
+    margin-top: 90px;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.project-title a {
+    color: #070707;
+}
+/* FOOTER- -------------------------------------------- */
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+.contacts-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 34px;
+    color: #070707;
+}
+.contacts-content {
+    font-size: 18px;
+    max-width: 480px;
+    margin: 0 auto 40px;
+}
+.contacts-button {
+    margin-bottom: 80px;
+}
+.btn {
+    background-color: #070707;
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+
+    transition: background-color 0.15s ease-in, top 0.2s ease-in;
+}
+.btn:hover, .btn:focus {
+    background-color: #202020;
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.contacts-footer {
+    color: #828282;
 }
